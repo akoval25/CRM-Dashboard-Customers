@@ -1,17 +1,15 @@
 {
   "files": {
-    "main.css": "/CRM-Dashboard-Customers/static/css/main.eaccda21.css",
-    "main.js": "/CRM-Dashboard-Customers/static/js/main.54005b50.js",
+    "main.css": "/CRM-Dashboard-Customers/static/css/main.c05c517c.css",
+    "main.js": "/CRM-Dashboard-Customers/static/js/main.62b7c6bb.js",
     "static/js/453.fa890282.chunk.js": "/CRM-Dashboard-Customers/static/js/453.fa890282.chunk.js",
-    "static/media/user-square.svg": "/CRM-Dashboard-Customers/static/media/user-square.27617add0f452c671fec310dc74fcb18.svg",
     "index.html": "/CRM-Dashboard-Customers/index.html",
-    "static/media/chevron-right.svg": "/CRM-Dashboard-Customers/static/media/chevron-right.85cea8b97367140de6e2899e400c6095.svg",
-    "main.eaccda21.css.map": "/CRM-Dashboard-Customers/static/css/main.eaccda21.css.map",
-    "main.54005b50.js.map": "/CRM-Dashboard-Customers/static/js/main.54005b50.js.map",
+    "main.c05c517c.css.map": "/CRM-Dashboard-Customers/static/css/main.c05c517c.css.map",
+    "main.62b7c6bb.js.map": "/CRM-Dashboard-Customers/static/js/main.62b7c6bb.js.map",
     "453.fa890282.chunk.js.map": "/CRM-Dashboard-Customers/static/js/453.fa890282.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eaccda21.css",
-    "static/js/main.54005b50.js"
+    "static/css/main.c05c517c.css",
+    "static/js/main.62b7c6bb.js"
   ]
 }
