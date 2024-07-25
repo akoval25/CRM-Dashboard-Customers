@@ -4,29 +4,7 @@ import './App.css';
 import React, { useEffect } from 'react';
 
 function App() {
-  // useEffect(() => {
-  //   const navItems = document.querySelectorAll('.nav_list-item');
 
-  //   const handleClick = (event) => {
-  //     navItems.forEach(item => item.classList.remove('active'));
-  //     event.currentTarget.classList.add('active');
-  //   };
-
-  //   navItems.forEach(item => {
-  //     item.addEventListener('click', handleClick);
-  //   });
-
-  //   return () => {
-  //     navItems.forEach(item => {
-  //       item.removeEventListener('click', handleClick);
-  //     });
-  //   };
-  // }, []);
-
-
- 
-
- 
     useEffect(() => {
       const navItems = document.querySelectorAll('.nav_list-item');
       const mainContainerElse = document.querySelector('.main_container-else');
@@ -37,7 +15,6 @@ function App() {
         const clickedItem = event.currentTarget;
         clickedItem.classList.add('active');
   
-        // Перевіряємо наявність <p>Customers</p> всередині активного елемента
         const hasCustomers = clickedItem.querySelector('p')?.textContent === 'Customers';
   
         if (hasCustomers) {
@@ -53,7 +30,6 @@ function App() {
         item.addEventListener('click', handleClick);
       });
   
-      // Очищення подій при демонтажу компонента
       return () => {
         navItems.forEach(item => {
           item.removeEventListener('click', handleClick);
