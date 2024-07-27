@@ -2,7 +2,10 @@ import logo from './img/logo.png';
 import user from './img/user.png';
 import search from './img/search.png';
 import './App.css';
-import React, { useEffect } from 'react';
+import CustomerList from './CustomerList.js';
+import customers from './customers.json';
+import Pagination from './Pagination'; 
+import React, { useState, useEffect } from 'react';
 
 function App() {
 
@@ -38,8 +41,14 @@ function App() {
       };
     }, []);
   
-    
-  
+    const [currentPage, setCurrentPage] = useState(1);
+  const rowsPerPage = 8;
+
+  const totalPages = Math.ceil(customers.length / rowsPerPage);
+
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+  };
 
   return (
     <div className="container">
@@ -173,7 +182,27 @@ function App() {
               <input type="text" class="search-field" placeholder="Search"/>
             </div>
            </div>
-           <div className="customers-list"></div>
+           <div className="customers-list">
+            <div className="customers-list-title">
+              <p>Customer Name</p>
+              <p>Company</p>
+              <p>Phone Number</p>
+              <p>Email</p>
+              <p>Country</p>
+              <p>Status</p>
+            </div>
+            <div className="customers-list-items"> 
+            <CustomerList customers={customers} currentPage={currentPage} rowsPerPage={rowsPerPage} />
+      
+            </div>
+            <div className="customers-list-pagination">
+              <div>
+                <p>Showing data 1 to 8 of  256K entries</p>
+              </div>
+              <Pagination currentPage={currentPage} totalPages={totalPages} onPageChange={handlePageChange} />
+    
+            </div>
+           </div>
         </div>
       </div>
 
