@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CRM-Dashboard-Customers/static/css/main.5c6817c5.css",
-    "main.js": "/CRM-Dashboard-Customers/static/js/main.4048d955.js",
+    "main.css": "/CRM-Dashboard-Customers/static/css/main.d8f3041c.css",
+    "main.js": "/CRM-Dashboard-Customers/static/js/main.35ea3866.js",
     "static/js/453.fa890282.chunk.js": "/CRM-Dashboard-Customers/static/js/453.fa890282.chunk.js",
     "index.html": "/CRM-Dashboard-Customers/index.html",
-    "main.5c6817c5.css.map": "/CRM-Dashboard-Customers/static/css/main.5c6817c5.css.map",
-    "main.4048d955.js.map": "/CRM-Dashboard-Customers/static/js/main.4048d955.js.map",
+    "main.d8f3041c.css.map": "/CRM-Dashboard-Customers/static/css/main.d8f3041c.css.map",
+    "main.35ea3866.js.map": "/CRM-Dashboard-Customers/static/js/main.35ea3866.js.map",
     "453.fa890282.chunk.js.map": "/CRM-Dashboard-Customers/static/js/453.fa890282.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c6817c5.css",
-    "static/js/main.4048d955.js"
+    "static/css/main.d8f3041c.css",
+    "static/js/main.35ea3866.js"
   ]
 }
