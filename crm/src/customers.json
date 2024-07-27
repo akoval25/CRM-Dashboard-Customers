@@ -1,0 +1,608 @@
+[
+    {
+      "id": 1,
+      "customer": "Jane Cooper",
+      "company": "Microsoft",
+      "phone": "(225) 555-0118",
+      "email": "jane@microsoft.com",
+      "country": "United States",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "customer": "Floyd Miles",
+      "company": "Yahoo",
+      "phone": "(205) 555-0100",
+      "email": "floyd@yahoo.com",
+      "country": "Kiribati",
+      "status": "Inactive"
+    },
+    {
+        "id": 3,
+        "customer": "Ronald Richards",
+        "company": "Adobe",
+        "phone": "(302) 555-0107",
+        "email": "ronald@adobe.com",
+        "country": "Israel",
+        "status": "Inactive"
+      },
+      {
+        "id": 4,
+        "customer": "Marvin McKinney",
+        "company": "Tesla",
+        "phone": "(252) 555-0126",
+        "email": "marvin@tesla.com",
+        "country": "Iran",
+        "status": "Active"
+      },
+      {
+        "id": 5,
+        "customer": "Jerome Bell",
+        "company": "Google",
+        "phone": "(629) 555-0129",
+        "email": "jerome@google.com",
+        "country": "Réunion",
+        "status": "Active"
+      },
+      {
+        "id": 6,
+        "customer": "Kathryn Murphy",
+        "company": "Microsoft",
+        "phone": "(406) 555-0120",
+        "email": "kathryn@microsoft.com",
+        "country": "Curaçao",
+        "status": "Active"
+      },
+      {
+        "id": 7,
+        "customer": "Jacob Jones",
+        "company": "Yahoo",
+        "phone": "(208) 555-0112",
+        "email": "jacob@yahoo.com",
+        "country": "Brazil",
+        "status": "Active"
+      },
+      {
+        "id": 8,
+        "customer": "Kristin Watson",
+        "company": "Facebook",
+        "phone": "(704) 555-0127",
+        "email": "kristin@facebook.com",
+        "country": "Åland Islands",
+        "status": "Inactive"
+      },
+      {
+        "id": 9,
+        "customer": "Jane Cooper",
+        "company": "Microsoft",
+        "phone": "(225) 555-0118",
+        "email": "jane@microsoft.com",
+        "country": "United States",
+        "status": "Inactive"
+      },
+      {
+        "id": 10,
+        "customer": "Floyd Miles",
+        "company": "Yahoo",
+        "phone": "(205) 555-0100",
+        "email": "floyd@yahoo.com",
+        "country": "Kiribati",
+        "status": "Inactive"
+      },
+      {
+          "id": 11,
+          "customer": "Ronald Richards",
+          "company": "Adobe",
+          "phone": "(302) 555-0107",
+          "email": "ronald@adobe.com",
+          "country": "Israel",
+          "status": "Inactive"
+        },
+        {
+          "id": 12,
+          "customer": "Marvin McKinney",
+          "company": "Tesla",
+          "phone": "(252) 555-0126",
+          "email": "marvin@tesla.com",
+          "country": "Iran",
+          "status": "Active"
+        },
+        {
+          "id": 13,
+          "customer": "Jerome Bell",
+          "company": "Google",
+          "phone": "(629) 555-0129",
+          "email": "jerome@google.com",
+          "country": "Réunion",
+          "status": "Active"
+        },
+        {
+          "id": 14,
+          "customer": "Kathryn Murphy",
+          "company": "Microsoft",
+          "phone": "(406) 555-0120",
+          "email": "kathryn@microsoft.com",
+          "country": "Curaçao",
+          "status": "Active"
+        },
+        {
+          "id": 15,
+          "customer": "Jacob Jones",
+          "company": "Yahoo",
+          "phone": "(208) 555-0112",
+          "email": "jacob@yahoo.com",
+          "country": "Brazil",
+          "status": "Active"
+        },
+        {
+          "id": 16,
+          "customer": "Kristin Watson",
+          "company": "Facebook",
+          "phone": "(704) 555-0127",
+          "email": "kristin@facebook.com",
+          "country": "Åland Islands",
+          "status": "Inactive"
+        },
+          {
+            "id": 17,
+            "customer": "Eleanor Pena",
+            "company": "Google",
+            "phone": "(555) 555-0123",
+            "email": "eleanor@google.com",
+            "country": "United States",
+            "status": "Active"
+          },
+          {
+            "id": 18,
+            "customer": "Cameron Williamson",
+            "company": "Microsoft",
+            "phone": "(555) 555-0124",
+            "email": "cameron@microsoft.com",
+            "country": "Canada",
+            "status": "Inactive"
+          },
+          {
+            "id": 19,
+            "customer": "Courtney Henry",
+            "company": "Apple",
+            "phone": "(555) 555-0125",
+            "email": "courtney@apple.com",
+            "country": "Australia",
+            "status": "Active"
+          },
+          {
+            "id": 20,
+            "customer": "Leslie Alexander",
+            "company": "IBM",
+            "phone": "(555) 555-0126",
+            "email": "leslie@ibm.com",
+            "country": "New Zealand",
+            "status": "Inactive"
+          },
+          {
+            "id": 21,
+            "customer": "Ronald Richards",
+            "company": "Amazon",
+            "phone": "(555) 555-0127",
+            "email": "ronald@amazon.com",
+            "country": "United Kingdom",
+            "status": "Active"
+          },
+          {
+            "id": 22,
+            "customer": "Darlene Robertson",
+            "company": "Netflix",
+            "phone": "(555) 555-0128",
+            "email": "darlene@netflix.com",
+            "country": "Ireland",
+            "status": "Inactive"
+          },
+          {
+            "id": 23,
+            "customer": "Jacob Klein",
+            "company": "Spotify",
+            "phone": "(555) 555-0129",
+            "email": "jacob@spotify.com",
+            "country": "Germany",
+            "status": "Active"
+          },
+          {
+            "id": 24,
+            "customer": "Megan Mendoza",
+            "company": "Snapchat",
+            "phone": "(555) 555-0130",
+            "email": "megan@snapchat.com",
+            "country": "France",
+            "status": "Inactive"
+          },
+          {
+            "id": 25,
+            "customer": "Andrew Schultz",
+            "company": "Twitter",
+            "phone": "(555) 555-0131",
+            "email": "andrew@twitter.com",
+            "country": "Spain",
+            "status": "Active"
+          },
+          {
+            "id": 26,
+            "customer": "Julia Peterson",
+            "company": "LinkedIn",
+            "phone": "(555) 555-0132",
+            "email": "julia@linkedin.com",
+            "country": "Italy",
+            "status": "Inactive"
+          },
+          {
+            "id": 27,
+            "customer": "Ralph Edwards",
+            "company": "Airbnb",
+            "phone": "(555) 555-0133",
+            "email": "ralph@airbnb.com",
+            "country": "Netherlands",
+            "status": "Active"
+          },
+          {
+            "id": 28,
+            "customer": "Michelle Lopez",
+            "company": "Uber",
+            "phone": "(555) 555-0134",
+            "email": "michelle@uber.com",
+            "country": "Belgium",
+            "status": "Inactive"
+          },
+          {
+            "id": 29,
+            "customer": "Kenneth Simmons",
+            "company": "Pinterest",
+            "phone": "(555) 555-0135",
+            "email": "kenneth@pinterest.com",
+            "country": "Portugal",
+            "status": "Active"
+          },
+          {
+            "id": 30,
+            "customer": "Sara Wilson",
+            "company": "Slack",
+            "phone": "(555) 555-0136",
+            "email": "sara@slack.com",
+            "country": "Sweden",
+            "status": "Inactive"
+          },
+          {
+            "id": 31,
+            "customer": "Albert Flores",
+            "company": "Adobe",
+            "phone": "(555) 555-0137",
+            "email": "albert@adobe.com",
+            "country": "Norway",
+            "status": "Active"
+          },
+          {
+            "id": 32,
+            "customer": "Karen Price",
+            "company": "Oracle",
+            "phone": "(555) 555-0138",
+            "email": "karen@oracle.com",
+            "country": "Denmark",
+            "status": "Inactive"
+          },
+          {
+            "id": 33,
+            "customer": "Lisa Sanchez",
+            "company": "Salesforce",
+            "phone": "(555) 555-0139",
+            "email": "lisa@salesforce.com",
+            "country": "Finland",
+            "status": "Active"
+          },
+          {
+            "id": 34,
+            "customer": "Mark Gomez",
+            "company": "Intel",
+            "phone": "(555) 555-0140",
+            "email": "mark@intel.com",
+            "country": "Switzerland",
+            "status": "Inactive"
+          },
+          {
+            "id": 35,
+            "customer": "Catherine Martin",
+            "company": "Cisco",
+            "phone": "(555) 555-0141",
+            "email": "catherine@cisco.com",
+            "country": "Austria",
+            "status": "Active"
+          },
+          {
+            "id": 36,
+            "customer": "Daniel Russell",
+            "company": "AMD",
+            "phone": "(555) 555-0142",
+            "email": "daniel@amd.com",
+            "country": "Luxembourg",
+            "status": "Inactive"
+          },
+          {
+            "id": 37,
+            "customer": "Laura Robinson",
+            "company": "HP",
+            "phone": "(555) 555-0143",
+            "email": "laura@hp.com",
+            "country": "Czech Republic",
+            "status": "Active"
+          },
+            {
+              "id": 38,
+              "customer": "Samuel Green",
+              "company": "Nvidia",
+              "phone": "(555) 555-0144",
+              "email": "samuel@nvidia.com",
+              "country": "Poland",
+              "status": "Inactive"
+            },
+            {
+              "id": 39,
+              "customer": "Jessica Brown",
+              "company": "AMD",
+              "phone": "(555) 555-0145",
+              "email": "jessica@amd.com",
+              "country": "Hungary",
+              "status": "Active"
+            },
+            {
+              "id": 40,
+              "customer": "Kevin Moore",
+              "company": "Samsung",
+              "phone": "(555) 555-0146",
+              "email": "kevin@samsung.com",
+              "country": "South Korea",
+              "status": "Inactive"
+            },
+            {
+              "id": 41,
+              "customer": "Susan Taylor",
+              "company": "Sony",
+              "phone": "(555) 555-0147",
+              "email": "susan@sony.com",
+              "country": "Japan",
+              "status": "Active"
+            },
+            {
+              "id": 42,
+              "customer": "Brian Harris",
+              "company": "LG",
+              "phone": "(555) 555-0148",
+              "email": "brian@lg.com",
+              "country": "South Korea",
+              "status": "Inactive"
+            },
+            {
+              "id": 43,
+              "customer": "Emily Nelson",
+              "company": "Panasonic",
+              "phone": "(555) 555-0149",
+              "email": "emily@panasonic.com",
+              "country": "Japan",
+              "status": "Active"
+            },
+            {
+              "id": 44,
+              "customer": "Frank Robinson",
+              "company": "Philips",
+              "phone": "(555) 555-0150",
+              "email": "frank@philips.com",
+              "country": "Netherlands",
+              "status": "Inactive"
+            },
+            {
+              "id": 45,
+              "customer": "Chloe Walker",
+              "company": "Siemens",
+              "phone": "(555) 555-0151",
+              "email": "chloe@siemens.com",
+              "country": "Germany",
+              "status": "Active"
+            },
+            {
+              "id": 46,
+              "customer": "David Martinez",
+              "company": "Bosch",
+              "phone": "(555) 555-0152",
+              "email": "david@bosch.com",
+              "country": "Germany",
+              "status": "Inactive"
+            },
+            {
+              "id": 47,
+              "customer": "Natalie Gonzalez",
+              "company": "Huawei",
+              "phone": "(555) 555-0153",
+              "email": "natalie@huawei.com",
+              "country": "China",
+              "status": "Active"
+            },
+            {
+              "id": 48,
+              "customer": "Ryan Hall",
+              "company": "Xiaomi",
+              "phone": "(555) 555-0154",
+              "email": "ryan@xiaomi.com",
+              "country": "China",
+              "status": "Inactive"
+            },
+            {
+              "id": 49,
+              "customer": "Sara Young",
+              "company": "Lenovo",
+              "phone": "(555) 555-0155",
+              "email": "sara@lenovo.com",
+              "country": "China",
+              "status": "Active"
+            },
+            {
+              "id": 50,
+              "customer": "James King",
+              "company": "ZTE",
+              "phone": "(555) 555-0156",
+              "email": "james@zte.com",
+              "country": "China",
+              "status": "Inactive"
+            },
+            {
+              "id": 51,
+              "customer": "Mia Lee",
+              "company": "OnePlus",
+              "phone": "(555) 555-0157",
+              "email": "mia@oneplus.com",
+              "country": "China",
+              "status": "Active"
+            },
+            {
+              "id": 52,
+              "customer": "Noah Wright",
+              "company": "Oppo",
+              "phone": "(555) 555-0158",
+              "email": "noah@oppo.com",
+              "country": "China",
+              "status": "Inactive"
+            },
+            {
+              "id": 53,
+              "customer": "Sophia Baker",
+              "company": "Vivo",
+              "phone": "(555) 555-0159",
+              "email": "sophia@vivo.com",
+              "country": "China",
+              "status": "Active"
+            },
+            {
+              "id": 54,
+              "customer": "Liam Harris",
+              "company": "Tencent",
+              "phone": "(555) 555-0160",
+              "email": "liam@tencent.com",
+              "country": "China",
+              "status": "Inactive"
+            },
+            {
+              "id": 55,
+              "customer": "Olivia Clark",
+              "company": "Alibaba",
+              "phone": "(555) 555-0161",
+              "email": "olivia@alibaba.com",
+              "country": "China",
+              "status": "Active"
+            },
+            {
+              "id": 56,
+              "customer": "William Allen",
+              "company": "Baidu",
+              "phone": "(555) 555-0162",
+              "email": "william@baidu.com",
+              "country": "China",
+              "status": "Inactive"
+            },
+            {
+              "id": 57,
+              "customer": "Ava Scott",
+              "company": "JD.com",
+              "phone": "(555) 555-0163",
+              "email": "ava@jd.com",
+              "country": "China",
+              "status": "Active"
+            },
+            {
+              "id": 58,
+              "customer": "Lucas Ramirez",
+              "company": "Weibo",
+              "phone": "(555) 555-0164",
+              "email": "lucas@weibo.com",
+              "country": "China",
+              "status": "Inactive"
+            },
+            {
+              "id": 59,
+              "customer": "Isabella Phillips",
+              "company": "ByteDance",
+              "phone": "(555) 555-0165",
+              "email": "isabella@bytedance.com",
+              "country": "China",
+              "status": "Active"
+            },
+            {
+              "id": 60,
+              "customer": "Mason Rodriguez",
+              "company": "Didi",
+              "phone": "(555) 555-0166",
+              "email": "mason@didi.com",
+              "country": "China",
+              "status": "Inactive"
+            },
+            {
+              "id": 61,
+              "customer": "Charlotte Campbell",
+              "company": "Pinduoduo",
+              "phone": "(555) 555-0167",
+              "email": "charlotte@pinduoduo.com",
+              "country": "China",
+              "status": "Active"
+            },
+            {
+              "id": 62,
+              "customer": "Ethan Parker",
+              "company": "Meituan",
+              "phone": "(555) 555-0168",
+              "email": "ethan@meituan.com",
+              "country": "China",
+              "status": "Inactive"
+            },
+            {
+              "id": 63,
+              "customer": "Amelia White",
+              "company": "Kuaishou",
+              "phone": "(555) 555-0169",
+              "email": "amelia@kuaishou.com",
+              "country": "China",
+              "status": "Active"
+            },
+            {
+              "id": 64,
+              "customer": "Jack Martinez",
+              "company": "Xiaomi",
+              "phone": "(555) 555-0170",
+              "email": "jack@xiaomi.com",
+              "country": "China",
+              "status": "Inactive"
+            },
+            {
+              "id": 65,
+              "customer": "Emily Brown",
+              "company": "NIO",
+              "phone": "(555) 555-0171",
+              "email": "emily@nio.com",
+              "country": "China",
+              "status": "Active"
+            },
+            {
+              "id": 66,
+              "customer": "Michael Wilson",
+              "company": "Xpeng",
+              "phone": "(555) 555-0172",
+              "email": "michael@xpeng.com",
+              "country": "China",
+              "status": "Inactive"
+            },
+            {
+              "id": 67,
+              "customer": "Elizabeth Johnson",
+              "company": "Li Auto",
+              "phone": "(555) 555-0173",
+              "email": "elizabeth@liauto.com",
+              "country": "China",
+              "status": "Active"
+            }
+          
+        
+        
+]
