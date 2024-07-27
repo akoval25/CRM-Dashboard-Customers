@@ -1,5 +1,6 @@
 import logo from './img/logo.png';
 import user from './img/user.png';
+import search from './img/search.png';
 import './App.css';
 import React, { useEffect } from 'react';
 
@@ -51,7 +52,7 @@ function App() {
           </div>
 
           <div className="nav_list">
-          <div className="nav_list-item active">
+          <div className="nav_list-item ">
             <div>
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -78,7 +79,7 @@ function App() {
 </svg>
           </div>
 
-          <div className="nav_list-item ">
+          <div className="nav_list-item active">
           <div>
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
   <path d="M15.0006 22.7498H9.00063C7.68063 22.7498 6.58063 22.6198 5.65063 22.3398C5.31063 22.2398 5.09063 21.9098 5.11063 21.5598C5.36063 18.5698 8.39063 16.2197 12.0006 16.2197C15.6106 16.2197 18.6306 18.5598 18.8906 21.5598C18.9206 21.9198 18.7006 22.2398 18.3506 22.3398C17.4206 22.6198 16.3206 22.7498 15.0006 22.7498ZM6.72063 21.0598C7.38063 21.1898 8.13063 21.2498 9.00063 21.2498H15.0006C15.8706 21.2498 16.6206 21.1898 17.2806 21.0598C16.7506 19.1398 14.5606 17.7197 12.0006 17.7197C9.44063 17.7197 7.25063 19.1398 6.72063 21.0598Z" fill="currentColor"/>
@@ -157,7 +158,24 @@ function App() {
      
       <div className="main_container">
       <div className="main_container-else"><p>page not found</p></div>
-      <div className="main_container-customers"> <p>!!!!!!!!</p></div>
+      <div className="main_container-customers"> 
+        <div className="main_containers-hello">
+          <p>Hello Evano 👋🏼,</p>
+        </div>
+        <div className="main_container-customers-section">
+           <div className="main_container-customers-title">
+            <div>
+              <h2>All Customers</h2>
+              <p>Active Members</p>
+            </div>
+            <div className="main_container-customers-search">
+              <img src={search} alt="" class="search-icon"/>
+              <input type="text" class="search-field" placeholder="Search"/>
+            </div>
+           </div>
+           <div className="customers-list"></div>
+        </div>
+      </div>
 
       </div>
     </div>
