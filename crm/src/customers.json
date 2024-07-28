@@ -1,5 +1,5 @@
 [
-    {
+  {
       "id": 1,
       "customer": "Jane Cooper",
       "company": "Microsoft",
@@ -602,7 +602,4 @@
               "country": "China",
               "status": "Active"
             }
-          
-        
-        
-]
+        ]
