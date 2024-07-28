@@ -9,6 +9,11 @@ import React, { useState, useEffect } from 'react';
 
 function App() {
 
+  
+
+  
+
+
     useEffect(() => {
       const navItems = document.querySelectorAll('.nav_list-item');
       const mainContainerElse = document.querySelector('.main_container-else');
@@ -42,6 +47,10 @@ function App() {
     }, []);
   
     const [currentPage, setCurrentPage] = useState(1);
+
+    
+  
+
   const rowsPerPage = 8;
 
   const totalPages = Math.ceil(customers.length / rowsPerPage);
@@ -49,6 +58,34 @@ function App() {
   const handlePageChange = (page) => {
     setCurrentPage(page);
   };
+
+
+  useEffect(() => {
+    const navContainer = document.querySelector('.nav_container');
+    const mainContainer = document.querySelector('.main_container');
+    const toggleLabel = document.querySelector('.toggle-label');
+
+    const handleNavClick = () => {
+      navContainer.classList.toggle('hide');
+      mainContainer.classList.toggle('show');
+      toggleLabel.classList.toggle('show');
+    };
+
+    const handleLabelClick = () => {
+      navContainer.classList.toggle('hide');
+      mainContainer.classList.toggle('show');
+      toggleLabel.classList.toggle('show');
+    };
+    navContainer.addEventListener('click', handleNavClick);
+    toggleLabel.addEventListener('click', handleLabelClick);
+
+    // Очищення подій при розмонтажі компонента
+    return () => {
+      navContainer.removeEventListener('click', handleNavClick);
+      toggleLabel.removeEventListener('click', handleLabelClick);
+    };
+  }, []);
+  
 
   return (
     <div className="container">
@@ -166,6 +203,7 @@ function App() {
       </div>
      
       <div className="main_container">
+      <div className="toggle-label">Back</div>
       <div className="main_container-else"><p>page not found</p></div>
       <div className="main_container-customers"> 
         <div className="main_containers-hello">
@@ -197,7 +235,7 @@ function App() {
             </div>
             <div className="customers-list-pagination">
               <div>
-                <p>Showing data 1 to 8 of  256K entries</p>
+                <p>Showing data 1 to 8 of 256k entries</p>
               </div>
               <Pagination currentPage={currentPage} totalPages={totalPages} onPageChange={handlePageChange} />
     
