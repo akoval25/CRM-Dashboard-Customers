@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CRM-Dashboard-Customers/static/css/main.1ba80547.css",
+    "main.css": "/CRM-Dashboard-Customers/static/css/main.cd64be6b.css",
     "main.js": "/CRM-Dashboard-Customers/static/js/main.15f327d3.js",
     "static/js/453.fa890282.chunk.js": "/CRM-Dashboard-Customers/static/js/453.fa890282.chunk.js",
     "index.html": "/CRM-Dashboard-Customers/index.html",
-    "main.1ba80547.css.map": "/CRM-Dashboard-Customers/static/css/main.1ba80547.css.map",
+    "main.cd64be6b.css.map": "/CRM-Dashboard-Customers/static/css/main.cd64be6b.css.map",
     "main.15f327d3.js.map": "/CRM-Dashboard-Customers/static/js/main.15f327d3.js.map",
     "453.fa890282.chunk.js.map": "/CRM-Dashboard-Customers/static/js/453.fa890282.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ba80547.css",
+    "static/css/main.cd64be6b.css",
     "static/js/main.15f327d3.js"
   ]
 }
